@@ -1,0 +1,4 @@
+# for lock wait time increase
+set innodb_lock_wait_timeout=500;
+
+show variables like 'innodb_lock_wait_timeout';
